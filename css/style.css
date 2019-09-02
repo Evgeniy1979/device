@@ -123,6 +123,16 @@ body {
 	float: right;
 }
 
+.nav-bottom > ul li a {
+	font-family: "Gilroy";
+	font-size: 18px;
+	line-height: 24px;
+	color: #000;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: bold;
+}
+
 .nav-bottom > ul li:nth-child(3) {
 	padding-left: 113px;
 }
@@ -133,5 +143,16 @@ body {
 
 .nav-bottom a.catalog {
 	padding-left: 60px;
+	font-family: "Gilroy";
 	font-size: 18px;
+	line-height: 24px;
+	color: #000;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: bold;
+}
+
+.nav-bottom > img {
+	padding-left: 15px;
+	opacity: .2;
 }
