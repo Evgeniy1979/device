@@ -34,11 +34,13 @@ body {
 	font-size: 15px;
 }
 
-.clr {
+.clearfix:after {
+	content: "";
 	clear: both;
+	display: block;
 }
 
-.karkas {
+.karkas { /* wrapper */
 	max-width: 1200px;
 	margin: 0 auto;
 	padding: 0 15px;
@@ -59,7 +61,15 @@ body {
 	top: -18px;
 }
 
-/* Верхняя навигация */
+.logo:hover {
+	opacity: 0.6;
+}
+
+.logo:active {
+	opacity: 0.3;
+}
+
+/* TOP NAVIGATION */
 
 .nav-top {
 	overflow: hidden;
@@ -112,7 +122,7 @@ body {
 	padding-right: 20px;
 }
 
-/* Нижняя навигация */
+/* ABOWE NAVIGATION */
 
 .nav-bottom {
 	padding: 40px 60px 0 0;
@@ -141,7 +151,7 @@ body {
 	padding-left: 39px;
 }
 
-.nav-bottom a.catalog {
+.nav-bottom .catalog {
 	padding-left: 60px;
 	font-family: "Gilroy";
 	font-size: 18px;
@@ -154,5 +164,7 @@ body {
 
 .nav-bottom > img {
 	padding-left: 15px;
-	opacity: .2;
+	opacity: 0.2;
 }
+
+
